@@ -14,6 +14,7 @@ class Scraper
         :profile_url => student_element['href']
       }
     }
+  binding.pry
   end
 
   def self.scrape_profile_page(profile_url)
